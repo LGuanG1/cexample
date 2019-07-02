@@ -13,6 +13,7 @@ https://github.com/settings/ssh/new
 git clone git@github.com:lingjiao0815/cexample.git
 cd cexample
 git add . -A
+git status//查看状态
 git commit -m "FEATURE 创建版本，视频进度3.6，进行api设计与分层"
 git remote add videoserver git@github.com:lingjiao0710/videoServer.git
 git push videoserver --all -v
